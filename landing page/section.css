@@ -1,0 +1,152 @@
+.sec1{
+    justify-content: center;
+    height:850px;
+    width: 100%;
+    background-image: linear-gradient(to bottom,#f7f5ff,#f7f5ff,#bab1dfd0,#b1a6dfd0,#ccbffdd0,#bfb2f3d0,#f7f5ff);
+    padding-top: 70px;
+}
+#text{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Lato', sans-serif;
+    
+}
+#text h1{
+    font-weight: bold;
+    font-size: 35px;
+    color: #261b55;
+}
+#text p{
+    margin-top: -15px;
+    margin-bottom: 40px;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.783);
+}
+#vpn1{
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    font-weight: bold;
+    font-size: 20px;
+    margin:50px;
+    text-decoration: none;
+    background-image: linear-gradient(to right,#6b48f7cc,#4d22fa);
+    border-radius: 30px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+#himg{
+    width: 100%;
+    position: inherit;
+}
+.details{
+    text-align: center;
+    justify-content: center;
+    margin: 50px 0px 70px 0px;
+    width: 100%;
+}
+.details h2{
+    color: #372580;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.card{
+    background-color: white;
+    display: flex;
+    margin: 0px 100px 30px 100px;
+    border-radius: 20px;
+}
+#text-card{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 5px 10px 10px 10px;  
+    font-family: 'Arizona',sans-serif; 
+}
+#text-card h3{
+    color: #372580;
+}
+#text-card p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.824);
+}
+
+.sec3{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.sec3 h2{
+    color: #372580;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.sec3 p{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.824);
+    font-family: 'Arizona',sans-serif;  
+}
+#img2{
+    width:50%;
+    float: left;
+    margin-left: 50px;
+}
+.box{
+    display: block;
+    text-align: left;
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+#text-box{
+    padding: 5px;
+    margin: 5px;  
+    font-family: 'Arizona',sans-serif; 
+}
+#text-box h3{
+    color: #372580;
+}
+#text-box p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.824);
+}
+#vpn1:hover{
+    background-image: linear-gradient(to right,#452ca8f0,rgb(80, 29, 128));
+}
+
+@media screen and (max-width:700px){
+    .sec3 p{
+        margin: 0px 20px 0px 20px;
+        width: 100%;
+    }
+    #img2{
+        display:none;
+    }
+    .box{
+        display: flex;
+        text-align: center;
+        margin-top: 50px;
+        margin-right: 150px;
+        margin-bottom: 50px;
+    }
+    #text-box{
+        text-align: center;
+        justify-content: center;
+        padding: 20px;
+        margin: 5px 10px 10px 10px;  
+        font-family: 'Arizona',sans-serif; 
+    }
+    #text-box h3{
+        color: #372580;
+    }
+    #text-box p{
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.824);
+    }
+    
+}

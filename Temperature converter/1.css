@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+body{
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/572/340/original/foggy-landscape-forest-in-the-morning-beautiful-sunrise-mist-cover-mountain-background-at-countryside-winter-free-photo.jpg);
+    background-size: cover;
+    backdrop-filter: blur(4px);
+}
+section{
+    background-color:rgba(240, 255, 240, 0.719);
+    backdrop-filter: blur(0px);
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    margin: 10% 30% 0% 30%;
+    font-family: 'PT Sans', sans-serif;
+}
+.box{
+    display: flex;
+    margin-top: 50px;
+}
+#text-input{
+    margin:0px 10px 0px 10px;
+    border-bottom: 0.5px solid black;
+}
+#input-data{
+    width: 250px;
+    background: transparent;
+    padding-left: 10px;
+    height: 25px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+#selection{
+    border-bottom: 2px solid black;
+    margin:0px 20px 0px 10px;
+}
+#selection-box{
+    padding: 5px;
+    background: transparent;
+    outline: none;
+    border:none;
+    border-radius: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+#submit button{
+    padding: 7px 15px 7px 15px;
+    width: 85px;
+    color:rgba(0, 0, 0, 0.758);
+    background-color:#aeb3e7eb;
+    outline: none;
+    border:none;
+    margin:0px 15px 0px 10px;
+    border-radius: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+#value h4{
+    font-size:20px;
+    margin: 0;
+}
+
+#text-input:hover{
+    border-bottom: 2px solid black;
+}
+
+#submit button:hover{
+    background-color: #8d93d6c9;
+}
+

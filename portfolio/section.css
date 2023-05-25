@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.profile{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.874);
+}
+.profile div{
+    padding: 50px;
+    display: flex;
+    text-align: center;
+}
+#photo{
+    width: 30%;
+    border-radius: 50%;
+    margin: 90px 50px 20px 100px;
+}
+#name{
+    margin: 90px 40px 0px 150px; 
+    display: block; 
+}
+#name h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Poppins',serif;
+    margin-top: 70px;
+}
+#name h3{
+    color: rgba(255, 255, 255, 0.773);
+    font-size: 20px ;
+    margin-top: -30px;
+}
+
+#about{
+    margin: 20px 0px 0px 200px;
+    font-family: "Loto",sans-serif;
+    padding: 10px;
+}
+#skills{
+    margin: 0px 0px 0px 200px;
+    font-family: "Loto",sans-serif;
+    padding: 10px;
+}
+#Projects{
+    margin: 0px 0px 0px 200px;
+    font-family: "Loto",sans-serif;
+    padding: 10px;
+}
+#Projects li{
+    text-decoration: none;
+    color: black;
+    margin:5px;
+}
+#Projects li a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+.contactus{
+    margin: 0px 0px 50px 200px;
+    font-family: "Loto",sans-serif;
+}
+#contactus{
+    margin-left:50px ;
+}   
+.social{
+    margin-top:10px;
+}
+.social a{
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    color: black;
+}
+.social a:hover{
+    text-decoration: underline;
+}
+#Projects li a:hover{
+    text-decoration:underline;
+}
