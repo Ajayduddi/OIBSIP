@@ -52,6 +52,7 @@ body{
 #contactus{
     display: flex;
     justify-content: center;
+    text-align: center;
 }   
 .social{
     margin-top: 30px;
